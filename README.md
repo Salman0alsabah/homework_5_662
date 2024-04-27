@@ -5,7 +5,7 @@ This Flask Banking Application is a simple yet secure web application designed t
 ## Features
 
 - **User Authentication**: Secure login and logout processes.
-- **Account Management**: Ability to create accounts, view balances, and transfer funds.
+- **Account Management**: Ability view balances, and transfer funds.
 - **Security**: Implements defenses against SQL injection, CSRF, XSS, and user enumeration.
 - **Database Integration**: Uses SQLite for database management, securely handling transactions and data storage.
 
