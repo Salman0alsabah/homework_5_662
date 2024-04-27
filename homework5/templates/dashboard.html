@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #4A90E2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #357ABD;
+        }
+        .logout {
+            background-color: #ff4136;
+        }
+        .logout:hover {
+            background-color: #ff2015;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to your bank account</h1>
+    <p><a href="/details?account=100">View Savings Account Details</a></p>
+    <p><a href="/details?account=998">View Checking Account Details</a></p>
+    <p><a href="/transfer">Make a Transfer</a></p>
+    <p><a href="/logout" class="logout">Logout</a></p>
+</body>
+</html>
